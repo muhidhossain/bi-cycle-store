@@ -10,8 +10,8 @@ app.use(express.json());
 app.use(cors());
 
 // routes
-app.use('/api/v1/products', ProductRoutes);
-app.use('/api/v1/orders', OrderRoutes);
+app.use('/api/products', ProductRoutes);
+app.use('/api/orders', OrderRoutes);
 
 const rootController = (req: Request, res: Response) => {
   res.send('Hello World!');

@@ -50,6 +50,10 @@ Use the following commands to run the project:
 
 ## Product Routes
 
+```
+Base URL: http://localhost:<PORT>
+```
+
 ### Add a Product
 
 - **URL:** `/api/products`
